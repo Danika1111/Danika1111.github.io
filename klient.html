@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Индекс Драйв</title>
+        <link rel="stylesheet" type="text/css" href="klient1.css"/>
+    </head>
+    <body>
+        <header class="section">
+                    <div class="kvadrat">                      
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Главная</a>
+                        <a href="booking.html">Бронирование</a>
+                        <a href="branches.html">Филиалы</a>
+                        <a href="register.html">Войти в личный кабинет</a>
+                    </div>       
+        </header>
+        <section>
+                <img class="v3_4" src="v3_4.png">
+                <div class="opisanie">
+
+                </div>
+        </section> 
+    </body>  
+
+
+    
+    <div class="form-wrap">
+        <div class="profile"><img src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
+          <h1>Данные о клиенте</h1>
+        </div>
+        <form method="post" action="form.php">
+          <div>
+            <label for="name">Имя</label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="radio">
+            <span>Пол</span>
+            <label>
+              <input type="radio" name="s" value="мужской">мужской
+              <div class="radio-control male"></div>
+            </label>
+            <label>
+              <input type="radio" name="s" value="женский">женский
+              <div class="radio-control female"></div>
+            </label>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required>
+          </div>
+          <div>
+            <label for="country">Страна</label>
+            <select name="country">
+              <option>Выберите страну проживания</option>
+              <option value="Россия">Россия</option> 
+              <option value="Украина">Украина</option> 
+              <option value="Беларусь">Беларусь</option> 
+            </select> 
+            <div class="select-arrow"></div> 
+          </div> 
+          <a href="karta.html">Отправить</a>
+        </form> 
+      </div>
+
+
+
+</html>
